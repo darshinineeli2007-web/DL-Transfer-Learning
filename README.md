@@ -4,13 +4,10 @@
 To develop an image classification model using transfer learning with VGG19 architecture for the given dataset.
 
 ## Problem Statement and Dataset
-Include the problem statement and Dataset
-
-
+Develop an image classification model using transfer learning with VGG19 architecture for the given Chip data provided along the reposistory.
 ## Neural Network Model
-Include the neural network model diagram.
-<img width="1092" height="787" alt="image" src="https://github.com/user-attachments/assets/555bd731-5a89-4abe-bd0b-4fe0282b500a" />
 
+<img width="1092" height="787" alt="image" src="https://github.com/user-attachments/assets/555bd731-5a89-4abe-bd0b-4fe0282b500a" />
 
 ## DESIGN STEPS
 ### STEP 1: 
@@ -26,8 +23,6 @@ Load pre-trained VGG19, modify the final layer for binary classification, and fr
 Define loss function (BCEWithLogitsLoss) and optimizer (Adam). Train the model and plot the loss curve.
 ### STEP 6: 
 Evaluate the model with test accuracy, confusion matrix, classification report, and visualize predictions. 
-
-
 
 ## PROGRAM
 
@@ -211,8 +206,8 @@ def train_model(model, train_loader, test_loader, num_epochs=10):
               f'Validation Loss: {val_loss:.4f}')
 
     # Plot training and validation loss
-    print("Name: ARAVINDAN SD")
-    print("Register Number: 212224243001")
+    print("Name: Neeli darshini")
+    print("Register Number: 212225230200")
 
     plt.figure(figsize=(8, 6))
 
@@ -272,8 +267,8 @@ def test_model(model, test_loader):
     # Compute confusion matrix
     cm = confusion_matrix(all_labels, all_preds)
 
-    print("Name: ARAVINDAN SD")
-    print("Register Number: 212224243001")
+    print("Name: Neeli darshini")
+    print("Register Number: 212225230200")
 
     plt.figure(figsize=(8, 6))
 
@@ -292,8 +287,8 @@ def test_model(model, test_loader):
     plt.show()
 
     # Classification Report
-    print("Name:        ")
-    print("Register Number:        ")
+    print("Name:  Neeli darshini      ")
+    print("Register Number:  212225230200      ")
 
     print("Classification Report:")
 
